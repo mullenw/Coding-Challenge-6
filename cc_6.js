@@ -1,6 +1,5 @@
-class Employee{name, department
-    constructor (name, department){
+class Employee{name, department}
+    constructor (name, department);{
         this.name = name;
         this.department = department;
     }
-}
