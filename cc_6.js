@@ -1,12 +1,14 @@
 class Employee {
-    constructor(name, department) {
-        this.name = name;
-        this.department = department;
-    }
+  constructor(name, department) {
+    this.name = name;
+    this.department = department;
+  }
+
+  describe() {
+    return `${this.name} works in the ${this.department} department.`;
+  }
 }
-describe() {
-    return `${this.name} works in ${this.department}`;
-}
+
 class Manager extends Employee {
     constructor(name, department, teamSize) {
         super(name, department);
@@ -32,6 +34,7 @@ class Company {
     });
   }
 }
+
 const employee1 = new Employee("James Cook", "Finance");
 const employee2 = new Employee("Ceedee Lamb", "Marketing");
 const manager1 = new Manager("Amon-Ra St. Brown", "Operations", 8);
