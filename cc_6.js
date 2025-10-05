@@ -18,6 +18,7 @@ class Manager extends Employee {
     return `${this.name} manages the ${this.department} department and leads a team of ${this.teamSize} employees.`;
   }
 }
+
 class Company {
   constructor() {
     this.employees = [];
