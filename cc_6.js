@@ -32,4 +32,7 @@ class Company {
     });
   }
 }
+const employee1 = new Employee("James Cook", "Finance");
+const employee2 = new Employee("Ceedee Lamb", "Marketing");
+const manager1 = new Manager("Amon-Ra St. Brown", "Operations", 8);
 
