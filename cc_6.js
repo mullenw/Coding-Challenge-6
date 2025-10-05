@@ -36,3 +36,10 @@ const employee1 = new Employee("James Cook", "Finance");
 const employee2 = new Employee("Ceedee Lamb", "Marketing");
 const manager1 = new Manager("Amon-Ra St. Brown", "Operations", 8);
 
+const myCompany = new Company();
+myCompany.addEmployee(employee1);
+myCompany.addEmployee(employee2);
+myCompany.addEmployee(manager1);
+
+myCompany.listEmployees();
+
